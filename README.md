@@ -1,3 +1,5 @@
+# Syntax
+
 # 标题
 # 一号标题
 ## 二号标题
@@ -19,5 +21,7 @@
 + itme2
 - item3
 
-# 图片: ![这有啥用](https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/307850487_10159954875494210_4549835701914448927_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Ig3lfaxMStUAX9lKWd0&_nc_ht=scontent-lhr8-1.xx&oh=00_AfAFd1qQAQWYLHSygMGRrf4MMQZ3OwUnAXiHQAD6T3rQew&oe=64D1B395)
-# 链接: [显示的文字](www.linkedin.com/in/heyizhang23)
+# 图片: ![这是图片](hyperlink)
+# 链接: [Heyi Linkdln](www.linkedin.com/in/heyizhang23)
+
+# 表格
