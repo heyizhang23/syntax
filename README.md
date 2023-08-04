@@ -1,27 +1,61 @@
 # Syntax
 
-# 标题
-# 一号标题
-## 二号标题
-### 三号标题
-#### 四号标题
-##### 五号标题
-###### 六号标题
+```
+# Phrase Emphasis
+*italic* _italic_  
+**bold** __bold__
+***blod + italic*** ___blod + italic___
 
-# 段落：两个空格+回车
-第一段  
-第二段
+# Links
+1. Inline  
+[example](http://url.com/ "Title")  
+2. Reference-style lavels (titles are optional):  
+An [example][id]. Then, anywhere else in the doc, define the link: [id]: http://example.com/ "Title"
 
-# 列表
-###### 有序列表
-1. 列表1
-2. 列表2
-###### 无序列表
-* item1
-+ itme2
-- item3
+# Images
+1. Inline (titles are optional):  
+![alt text](/path/img.jpg "Title")
+2. Reference-style lavels:  
+![alt text][id]
+[id]: /url/to/img.jpg "Title"
 
-# 图片: ![这是图片](hyperlink)
-# 链接: [Heyi Linkdln](www.linkedin.com/in/heyizhang23)
+# Headers
+atx-style (closing #'s are optional)
 
-# 表格
+# Header 1 #
+## Header 2 ##
+###### Header 6
+
+# list
+* Abstract
+    * Background
+    * Methods
+* Methods
+    1. Descriptive statistics
+    2. Regression analysis
+        * BELITTLER
+    3. Sensitivity analysis
+* References list
+1. Tom
+2. Jerery
+
+# Horizontal Rules
+---
+***
+
+# Manual Line Breaks
+Roses are red,   
+Violets are blue.
+
+# sheet
+|Header 1|Header 2|Header 3|
+|:-:|:-:|:-:|
+|one|two|three|
+|four|five|sixsixsix|
+
+# quote
+> I quoted someone else's passage
+>> I'm quoting a passage of someone else quoting a passage of someone else's
+>>> I quoted someone else quoted someone else quoted someone else's
+>>> 
+```
